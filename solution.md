@@ -1,6 +1,8 @@
 # Full-Stack Solution
-This is a Task Management app, a solution for the Full-Stack Challenge. 
-Hour
+This is a Task Management app, a solution for the Full-Stack Challenge. The app allows CRUD functionality and is written in TypeScript with a Nestjs backend.
+
+[![Watch the demo](https://cdn.loom.com/sessions/thumbnails/61dc2afff6ff4f64b4cabdb3b2ceb7fe-100e010b173d948f-full-play.gif)](https://www.loom.com/share/61dc2afff6ff4f64b4cabdb3b2ceb7fe)
+
 
 The application allows users to:
 

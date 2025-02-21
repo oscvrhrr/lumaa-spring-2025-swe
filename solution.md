@@ -63,6 +63,7 @@ The client is running on port 3000
 ## Setup Environment Variables & Database
 
 Create a `.env` file in the `server` directory and add the necessary environment variables:
+Make sure to replace 'username', 'password', and 'database_name' with your credentials in the string.
 
 ```bash
 # Example .env file
@@ -70,6 +71,7 @@ DATABASE_URL="postgresql://username:password@localhost:5432/database_name?schema
 JWT_SECRET=randomsecret
 PORT=4001 #required
 ```
+
 
 
 ## Setup server
@@ -99,7 +101,7 @@ npx prisma studio
 | Description | Method | URL |
 | ----------- | ------ | --- |
 | login user | POST | /auth/login |
-| register user | POST | /users/register |
+| register user | POST | /auth/register |
 
 ## Tasks
 | Description | Method | URL |

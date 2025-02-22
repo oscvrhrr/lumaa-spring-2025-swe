@@ -103,6 +103,8 @@ npx prisma studio
 | login user | POST | /auth/login |
 | register user | POST | /auth/register |
 
+To access the `task` resource, you must include a token in the `Authorization` header using the Bearer scheme:
+
 ## Tasks
 | Description | Method | URL |
 | ----------- | ------ | --- |
